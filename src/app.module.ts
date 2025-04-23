@@ -11,9 +11,9 @@ import { MealTaskModule } from './meal-task/meal-task.module';
   imports: [
     TypeOrmModule.forRoot({
       type: 'postgres',
-      host: 'localhost',
-      username: 'postgres',
-      password: 'postgres',
+      host: '',
+      username: '',
+      password: '',
       database: 'hospital',
       autoLoadEntities: true,
       synchronize: true,
