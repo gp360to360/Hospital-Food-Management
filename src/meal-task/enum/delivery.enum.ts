@@ -1,0 +1,6 @@
+export enum MealStatus {
+  PENDING = 'PENDING',
+  IN_PROGRESS = 'IN_PROGRESS',
+  PREPARED = 'PREPARED',
+  DELIVERED = 'DELIVERED',
+}
